@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Switch</title>
+    </head>
+    <body>
+        <p id="demo1"></p>
+            <h1>Switch in JS</h1>
+<pre>switch(expression) 
+case x:
+// code block
+break;
+case y:
+// code block
+break;
+default:
+// code block
+</pre>
+        <script>
+           // switch concept
+var day;
+switch (new Date().getDay()) {
+case 0:
+day = "Sunday";
+break;
+case 1:
+day = "Monday";
+break;
+case 2:
+day = "Tuesday";
+break;
+case 3:
+day = "Wednesday";
+break;
+case 4:
+day = "Thursday";
+break;
+case 5:
+day = "Friday";
+break;
+case 6:
+day = "Saturday";
+break;}
+document.getElementById("demo1").innerHTML = "Today is " + day; 
+            </script>
+            
+    </body>
+</html>
