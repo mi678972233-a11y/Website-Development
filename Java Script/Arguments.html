@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Finding The Largest Number with the help of Argument Objects</p>
+        <p id="result"></p>
+        <script>
+function myFunction() 
+{ var i;
+var max = 0;
+for (i = 0; i < arguments.length; i++)
+    { if (arguments[i] > max)
+        { max = arguments[i]; } }
+return max; }
+document.getElementById("result").innerHTML = myFunction(8, 9, 10);
+        </script>
+    </body>
+</html>
