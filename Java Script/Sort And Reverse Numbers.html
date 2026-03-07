@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Array Sort</title>  
+    </head>
+    <body>
+        <h1>Javascript Array Sort</h1>
+        <p>Click The Button To Sort The Array In Ascending Order</p>
+        <button onclick="ascending()">Ascending Order</button>
+        <button onclick="descending()">Descending Order</button>
+        <p id="result"></p>
+        <script>
+            var numbers = [40, 100, 1, 5, 25, 10];
+            document.getElementById("result").innerHTML = points;
+            
+            function ascending() {
+                numbers.sort(function(a, b) {
+                    return a - b;
+                });
+                document.getElementById("result").innerHTML = "Ascending Order: " + numbers.join(", ");
+            }
+            
+            function descending() {
+                numbers.sort(function(a, b) {
+                    return b - a;
+                });
+                document.getElementById("result").innerHTML = "Descending Order: " + numbers.join(", ");
+            }
+        </script>
+    </body>
+</html>
