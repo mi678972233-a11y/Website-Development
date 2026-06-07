@@ -34,7 +34,7 @@ while True:
                 song = input("Enter song name to add: ")
                 my_playlist.add_song(song)
             elif choice == '2':
-                song = input("Enter song name to remove: ")
+                song = input("Enter song name to remove: ")  
                 my_playlist.remove_song(song)
             elif choice == '3':
                 my_playlist.display()
@@ -43,3 +43,4 @@ while True:
                 break
             else:
                 print("Invalid choice. Enter 1, 2, 3, or 4.")
+                
