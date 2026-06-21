@@ -1,0 +1,5 @@
+Maths Subject,
+Chapters :
+(i)Variables
+(ii)Logrithims
+(iii)Prime Numbers
