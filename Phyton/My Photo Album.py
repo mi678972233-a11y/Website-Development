@@ -1,5 +1,5 @@
 from tkinter import *   
-from tkinter import messaggebox
+from tkinter import messagebox
 from tkinter import messagebox
 from PIL import Image, ImageTk
 window = Tk()
